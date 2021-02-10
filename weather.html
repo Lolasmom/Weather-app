@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+</html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Weather App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/d54e289cb7.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div class="app-title"><p></p></div>
+
+        <i class="fas fa-font"> Weather App</i>
+        <style>
+            .fas{
+                font-size:100px;
+                color:blue;
+            }
+        </style>
+        <header class="container-fluid text-center text-white bg-dark p-2">
+    <div class="container-fluid">
+        <div class="row">
+          <aside class="col-lg-3 bg-dark">
+            <h5 class="mt-1">Search for a City:</h5>
+            <div class="form-inline form-group">
+              <input class="form-control" type="text" id="search-value" />
+              <button class="btn btn-primary" id="search-button"> <i class="fa fa-search"></i> </button>
+            </div>
+    
+            <div class="container">
+            
+            <div class="weather-container"></div>
+            <div class="weather-icon"><img src="icons/sunrise.png"></div>
+            <div class="temperature-value"><p>- °<span>C</span></p></div>
+            <div class="temperature-description"><p> - </p></div>
+            <div class="location"><p>-</p></div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html> 
